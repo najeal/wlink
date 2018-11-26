@@ -1,5 +1,5 @@
 {
-  "name": "wml",
+  "name": "wlink",
   "version": "0.0.0",
   "description": "Replaces npm link with something that actually works!",
   "scripts": {
