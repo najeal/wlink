@@ -1,3 +1,4 @@
+<img src="media/logo.png" alt="wlink logo" width="300"/>
 
 > Tangible symlinks
 Wlink is based on wml project which is not maintained.
