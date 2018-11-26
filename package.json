@@ -5,23 +5,21 @@
   "scripts": {
     "test": ":",
     "prepublish": ":",
-    "build": ":",
-    "release": "npm install wnpm-ci --no-save && wnpm-release -- --no-shrinkwrap"
+    "build": ":"
   },
   "bin": {
-    "wml": "./src/cli/index.js"
+    "wlink": "./src/cli/index.js"
   },
-  "author": "dutzi <dutzi@wix.com> (http://github.com/dutzi)",
   "license": "MIT",
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wix/wml.git"
+    "url": "git+https://github.com/najeal/wlink"
   },
   "bugs": {
-    "url": "https://github.com/wix/wml/issues"
+    "url": "https://github.com/najeal/wlink/issues"
   },
-  "homepage": "https://github.com/wix/wml#readme",
+  "homepage": "https://github.com/najeal/wlink#readme",
   "dependencies": {
     "colors": "^1.1.2",
     "extend": "^3.0.0",
@@ -37,8 +35,5 @@
   "devDependencies": {
     "babel-eslint": "^6.0.4",
     "eslint": "^2.11.1"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   }
 }
