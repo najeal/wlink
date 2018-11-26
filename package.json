@@ -1,6 +1,6 @@
 {
   "name": "wlink",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Replaces npm link with something that actually works!",
   "scripts": {
     "test": ":",
@@ -12,10 +12,7 @@
   },
   "license": "MIT",
   "preferGlobal": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/najeal/wlink"
-  },
+  "repository": "https://github.com/najeal/wlink.git",
   "bugs": {
     "url": "https://github.com/najeal/wlink/issues"
   },

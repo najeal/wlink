@@ -1,6 +1,6 @@
 
 > Tangible symlinks
-Wlink is based on wml project
+Wlink is based on wml project which is not maintained.
 Wlink listens to changes in some folder (using [Watchman](https://facebook.github.io/watchman/)) and copies changed files into another folder.
 
 ## Why?
@@ -19,6 +19,10 @@ Note that since Wlink is based on Watchman it **does not support symlinks**. lol
 
 ```sh
 npm install -g wlink
+```
+or
+```sh
+npm global add wlink
 ```
 
 ## Usage
